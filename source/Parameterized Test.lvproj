@@ -11,12 +11,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="LUnit" Type="Folder">
+			<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
+			<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Parameterized Test Case Test.lvclass" Type="LVClass" URL="../../tests/Parameterized Test Case Test/Parameterized Test Case Test.lvclass"/>
+			<Item Name="Parametrized Test Case Test Double.lvclass" Type="LVClass" URL="../Parametrized Test Case Test Double/Parametrized Test Case Test Double.lvclass"/>
+		</Item>
 		<Item Name="Parameter.lvclass" Type="LVClass" URL="../Parameter/Parameter.lvclass"/>
-		<Item Name="Parameterized Test Case Test.lvclass" Type="LVClass" URL="../../tests/Parameterized Test Case Test/Parameterized Test Case Test.lvclass"/>
 		<Item Name="Parameterized Test Case.lvclass" Type="LVClass" URL="../Parameterized Test Case/Parameterized Test Case.lvclass"/>
-		<Item Name="Parametrized Test Case Test Double.lvclass" Type="LVClass" URL="../Parametrized Test Case Test Double/Parametrized Test Case Test Double.lvclass"/>
-		<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
-		<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
