@@ -11,7 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Example" Type="Folder"/>
+		<Item Name="Example" Type="Folder">
+			<Item Name="Temperature Converter" Type="Folder">
+				<Item Name="Temperature Converter Test.lvclass" Type="LVClass" URL="../../examples/Temperature Converter Test/Temperature Converter Test.lvclass"/>
+				<Item Name="Temperature Converter.vi" Type="VI" URL="../../examples/Temperature Converter.vi"/>
+			</Item>
+		</Item>
 		<Item Name="LUnit" Type="Folder">
 			<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 			<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
