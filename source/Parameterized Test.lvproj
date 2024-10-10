@@ -11,13 +11,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Example" Type="Folder"/>
 		<Item Name="LUnit" Type="Folder">
 			<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 			<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Parameterized Test Case Test.lvclass" Type="LVClass" URL="../../tests/Parameterized Test Case Test/Parameterized Test Case Test.lvclass"/>
-			<Item Name="Parametrized Test Case Test Double.lvclass" Type="LVClass" URL="../Parametrized Test Case Test Double/Parametrized Test Case Test Double.lvclass"/>
 		</Item>
 		<Item Name="Parameter.lvclass" Type="LVClass" URL="../Parameter/Parameter.lvclass"/>
 		<Item Name="Parameterized Test Case.lvclass" Type="LVClass" URL="../Parameterized Test Case/Parameterized Test Case.lvclass"/>
@@ -28,6 +28,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
