@@ -73,24 +73,25 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">/C/Users/AntonSundqvist/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/vi.lib/Astemes/LUnit Parameterized</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/LUnit Parameterized/vi.lib/Astemes/LUnit Parameterized</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F8196923-3EA2-4438-84CE-CAAF2F77AAE3}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/vi.lib/Astemes/LUnit Parameterized</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/LUnit Parameterized/vi.lib/Astemes/LUnit Parameterized</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/vi.lib/Astemes/LUnit Parameterized/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/LUnit Parameterized/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">examples</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/examples/Astemes/LUnit Parameterized/Temperature Converter</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/LUnit Parameterized/examples/Astemes/LUnit Parameterized/Temperature Converter</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">Tools Menu</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/project/LUnit</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/LUnit Parameterized/project/LUnit</Property>
 				<Property Name="Destination[4].destName" Type="Str">resource</Property>
-				<Property Name="Destination[4].path" Type="Path">../builds/resource/Astemes/LUnit/Templates/Parameterized Test Case</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/LUnit Parameterized/resource/Astemes/LUnit/Templates/Parameterized Test Case</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{72BF3610-6398-4ACF-80C8-73435DADF063}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{756D2C8B-BFDA-4498-930A-7212488472E8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
