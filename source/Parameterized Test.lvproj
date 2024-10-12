@@ -14,6 +14,7 @@
 		<Item Name="Example" Type="Folder">
 			<Item Name="Temperature Converter" Type="Folder">
 				<Item Name="Temperature Converter Test.lvclass" Type="LVClass" URL="../../examples/Temperature Converter/Temperature Converter Test/Temperature Converter Test.lvclass"/>
+				<Item Name="Temperature Converter.lvproj" Type="Document" URL="../../examples/Temperature Converter/Temperature Converter.lvproj"/>
 				<Item Name="Temperature Converter.vi" Type="VI" URL="../../examples/Temperature Converter/Temperature Converter.vi"/>
 			</Item>
 		</Item>
