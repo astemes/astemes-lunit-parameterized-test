@@ -83,14 +83,14 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/vi.lib/Astemes/LUnit Parameterized/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">examples</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/examples/Astemes/LUnit Parameterized</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/examples/Astemes/LUnit Parameterized/Temperature Converter</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">Tools Menu</Property>
 				<Property Name="Destination[3].path" Type="Path">../builds/project/LUnit</Property>
 				<Property Name="Destination[4].destName" Type="Str">resource</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/resource/Astemes/LUnit/Templates/Parameterized Test Case</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5F22ABBA-D2A0-438D-ACD0-A987DEE46CB3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{72BF3610-6398-4ACF-80C8-73435DADF063}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
