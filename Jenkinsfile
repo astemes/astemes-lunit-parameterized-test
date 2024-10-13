@@ -1,13 +1,16 @@
 pipeline {
-	agent any
+	agent {
+        label 'LV2020'
+    }
 	environment{
-		PROJECT_TITLE = "NAME OF PROJECT"
-		REPO_URL = "https://github.com/astemes/NAME_OF_REPOSITORY"
+		PROJECT_TITLE = "LUnit Parameterized Test Add-on"
+		REPO_URL = "https://github.com/astemes/astemes-lunit-parameterized-test"
 		AUTHOR = "Anton Sundqvist"
-		INITIAL_RELEASE = 2022
-		LV_PROJECT_PATH = "source\\Project.lvproj"
-		LV_BUILD_SPEC = "Build Specification"
-		LV_PACKAGE_BUILD_SPEC = "Package Build Specification"
+		INITIAL_RELEASE = 2024
+		LV_PROJECT_PATH = "source\\Parameterized Test.lvproj"
+		LV_BUILD_SPEC = "LUnit Parameterized Test Case"
+		LV_VIPB_PATH = "source\\LUnit.vipb"
+		LV_VERSION = "20.0"
 	}
 	stages {
 		stage('Initialize') {
@@ -32,15 +35,9 @@ pipeline {
 		stage('Build') {
 			steps {
 				//Execute LabVIEW build spec
-				setLVBuildSpecVersion "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}", COMMIT_TAG
 				buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}"
-				
 				//Build mkdocs documentation
 				buildDocs "${PROJECT_TITLE}", "${REPO_URL}", "${AUTHOR}", "${INITIAL_RELEASE}"
-				
-				//If buildinga package for release, set the FILE_PATH variable
-				setLVBuildSpecVersion "${LV_PROJECT_PATH}", "${LV_PACKAGE_BUILD_SPEC}", COMMIT_TAG
-				script{FILE_PATH = buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_PACKAGE_BUILD_SPEC}"}
 			}
 		}
 		stage('Deploy') {
@@ -55,6 +52,9 @@ pipeline {
 			steps{
 				deployGithubPages()
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${FILE_PATH}"
+				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"}
+				deployGithubPages()
+				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
 			}
 		}
 	}	
