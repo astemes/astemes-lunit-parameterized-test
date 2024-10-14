@@ -9,7 +9,7 @@ pipeline {
 		INITIAL_RELEASE = 2024
 		LV_PROJECT_PATH = "source\\Parameterized Test.lvproj"
 		LV_BUILD_SPEC = "LUnit Parameterized Test Case"
-		LV_VIPB_PATH = "source\\LUnit.vipb"
+		LV_VIPB_PATH = "LUnit Parameterized Add-On.vipb"
 		LV_VERSION = "20.0"
 	}
 	stages {
