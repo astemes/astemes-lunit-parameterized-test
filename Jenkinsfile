@@ -4,7 +4,7 @@ pipeline {
     }
 	environment{
 		PROJECT_TITLE = "LUnit Parameterized Test Add-on"
-		REPO_URL = "https://github.com/astemes/astemes-lunit-parameterized-test"
+		REPO_URL = "https://github.com/Astemes/astemes-lunit-parameterized-test"
 		AUTHOR = "Anton Sundqvist"
 		INITIAL_RELEASE = 2024
 		LV_PROJECT_PATH = "source\\Parameterized Test.lvproj"
@@ -50,8 +50,6 @@ pipeline {
 				GITHUB_TOKEN = credentials('github-token')
 			}
 			steps{
-				deployGithubPages()
-				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${FILE_PATH}"
 				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"}
 				deployGithubPages()
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
