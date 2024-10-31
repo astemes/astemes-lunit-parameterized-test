@@ -1,1 +1,0 @@
-Manuals should be placed in pdf format in separate subfolders.
