@@ -19,7 +19,7 @@ We could know the following possible values:
 | ------------- | ------------- |
 | 0x0000  | -40.0  |
 | 0x7D00   | 125.0  |
-| 0x3A98   | 25.0  |
+| 0x313E   | 25.0  |
 | 0xFFFF   | Error |
 
 Now we could write four different tests to test each value. 
