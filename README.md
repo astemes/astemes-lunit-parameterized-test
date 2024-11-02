@@ -19,7 +19,7 @@ We could know the following possible values:
 | ------------- | ------------- |
 | 0x0000  | -40.0  |
 | 0x7D00   | 125.0  |
-| 0x3A98   | 25.0  |
+| 0x313E   | 25.0  |
 | 0xFFFF   | Error |
 
 Now we could write four different tests to test each value. 
@@ -28,21 +28,21 @@ We start by creating a new Parameterized Test Case from the Tools menu option
 
 ![create test case](docs/img/create_param_test_case.png)
 
-Now, we got the following test case to work from.
+You'll get a new class created from a template. This is what the template looks like.
 
-![new test case](docs/img/test_case_created.png)
+![template](docs/img/template.png)
 
-We add the data to the `String Parser Test.lvclass` class private data 
+We start by adding the inputs value and expected output values in the `Parameters.ctl`. We are just defining the names and datatypes here. 
 
-![private data](docs/img/private_data.png)
+![parameters cluster](docs/img/parameter_cluster.png)
 
-and declared in the `Parameters.vi`.
-In this VI, each parameter is a cluster with a string called `Name` and an object of the type of the `String Parser Test.lvclass`.
+Next we can go to the `Parameters.vi`.
+In this VI, there is an array constant, we just fill that with our scenario information.
 
 ![parameters](docs/img/parameters.png)
 
 We have still not written the actual test, so let's do that next.
-We now need to write the test once, with the parameters taken from teh private data of the class. 
+We now need to write the test once, with the parameters taken from the paramaters cluster in the private data of the class. 
 
 ![test_case](docs/img/test_case_method.png)
 
