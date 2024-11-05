@@ -48,6 +48,7 @@ We now need to write the test once, with the parameters taken from the paramater
 
 When executed by LUnit, this method will be run four times, once for each parameter.
 LUnit will report the results for each parameter under the test case name in the UI.
+The index of the scenario, as in the array above, will be prepended to the scenario name.
 
 ![test_execution](docs/img/test_execution.png)
 
