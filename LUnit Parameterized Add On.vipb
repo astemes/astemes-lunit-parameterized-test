@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-12 13:54:29" Modified_Date="2024-11-24 16:55:24" Creator="AntonSundqvist" Comments="" ID="20492fe3fe984b318e7e9bd60e0db321">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-12 13:54:29" Modified_Date="2024-12-08 13:31:17" Creator="AntonSundqvist" Comments="" ID="b10cd64a7a302764ed738bf3148b6bd4">
   <Library_General_Settings>
     <Package_File_Name>astemes_lib_lunit_parameterized_add_on</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>astemes_lib_lunit &gt;=1.6.21.17</Additional_External_Dependencies>
+      <Additional_External_Dependencies>astemes_lib_lunit &gt;=1.8.11.22</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -37,7 +37,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
       <Copyright/>
       <Packager/>
       <URL>https://github.com/Astemes/astemes-lunit-parameterized-test</URL>
-      <Release_Notes/>
+      <Release_Notes>Bump required version of LUnit dependency to &gt;1.8.11 where an issue with cache invalidation for parameterized tests is resolved.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
