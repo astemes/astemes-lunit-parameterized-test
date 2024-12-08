@@ -66,6 +66,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
 	</Item>
+	<Item Name="Test List Parametrized Test Cases Test Method without Prefix.vi" Type="VI" URL="../Test List Parametrized Test Cases Test Method without Prefix.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%G!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!G*&amp;"B=G&amp;N:82F=GF[:71A6'6T&gt;#"$98.F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!$62F=X1A1W&amp;T:3"0&gt;81!0E"Q!"Y!!#9E5'&amp;S97VF&gt;'6S;8JF:#"5:8.U)%.B=W5A6'6T&gt;#ZM&gt;G.M98.T!!!-6'6T&gt;#"$98.F)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"!!%!!1!"A-!!(A!!!E!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!(!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+	</Item>
 	<Item Name="Test List Parametrized Test Cases.vi" Type="VI" URL="../Test List Parametrized Test Cases.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%G!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!G*&amp;"B=G&amp;N:82F=GF[:71A6'6T&gt;#"$98.F)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!$62F=X1A1W&amp;T:3"0&gt;81!0E"Q!"Y!!#9E5'&amp;S97VF&gt;'6S;8JF:#"5:8.U)%.B=W5A6'6T&gt;#ZM&gt;G.M98.T!!!-6'6T&gt;#"$98.F)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"!!%!!1!"A-!!(A!!!E!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!(!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -136,6 +145,6 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685394</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 	</Item>
 </LVClass>
