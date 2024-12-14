@@ -121,6 +121,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/LUnit Parameterized/vi.lib/Astemes/LUnit Parameterized</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F8196923-3EA2-4438-84CE-CAAF2F77AAE3}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -136,7 +137,7 @@
 				<Property Name="Destination[4].destName" Type="Str">resource</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/LUnit Parameterized/resource/Astemes/LUnit/Templates/Parameterized Test Case</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{64D8DB3C-8786-442E-B048-0DC00C29BB6E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D8EFC054-91B9-43A4-B3FD-46F36C2CB82E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
