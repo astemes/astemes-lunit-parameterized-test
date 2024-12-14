@@ -33,6 +33,16 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="Private Utility Method.vi" Type="VI" URL="../Private Utility Method.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'%!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!M+F"B=G&amp;N:82S;8JF:#"5:8.U)%.B=W5A6'6T&gt;#"%&lt;X6C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!*F"B=G&amp;N:82S;8JF:#"5:8.U)%.B=W5A6'6T&gt;#"%&lt;X6C&lt;'5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;R!=!!?!!!M+F"B=G&amp;N:82S;8JF:#"5:8.U)%.B=W5A6'6T&gt;#"%&lt;X6C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!*6"B=G&amp;N:82S;8JF:#"5:8.U)%.B=W5A6'6T&gt;#"%&lt;X6C&lt;'5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074274816</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Test Error.vi" Type="VI" URL="../Test Error.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!M+F"B=G&amp;N:82S;8JF:#"5:8.U)%.B=W5A6'6T&gt;#"%&lt;X6C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!*F"B=G&amp;N:82S;8JF:#"5:8.U)%.B=W5A6'6T&gt;#"%&lt;X6C&lt;'5A4X6U!!"=1(!!(A!!,#J198*B&lt;76U=GF[:71A6'6T&gt;#"$98.F)&amp;2F=X1A2'^V9GRF,GRW9WRB=X-!!#6198*B&lt;76U=GF[:71A6'6T&gt;#"$98.F)&amp;2F=X1A2'^V9GRF)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!%!!1!"!!'!Q!!?!!!#1!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!=!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
