@@ -45,7 +45,18 @@
 			</Item>
 		</Item>
 		<Item Name="Project Provider" Type="Folder">
-			<Item Name="Project Provider.lvlib" Type="Library" URL="../Project Provider/Project Provider.lvlib"/>
+			<Item Name="GProviders" Type="Folder">
+				<Item Name="LUnit_param_signed.ini" Type="Document" URL="../Project Provider/GProviders/LUnit_param_signed.ini"/>
+			</Item>
+			<Item Name="Icons" Type="Folder">
+				<Item Name="NewParamTestCase.png" Type="Document" URL="../Project Provider/Icons/NewParamTestCase.png"/>
+			</Item>
+			<Item Name="LUnit" Type="Folder">
+				<Item Name="Create New Test Case.vi" Type="VI" URL="../Project Provider/LUnit Param/Create New Test Case.vi"/>
+				<Item Name="Global_Init.vi" Type="VI" URL="../Project Provider/LUnit Param/Global_Init.vi"/>
+				<Item Name="Global_Interface.vi" Type="VI" URL="../Project Provider/LUnit Param/Global_Interface.vi"/>
+				<Item Name="Global_OnCommand.vi" Type="VI" URL="../Project Provider/LUnit Param/Global_OnCommand.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Template Test Case.lvclass" Type="LVClass" URL="../templates/Template Test Case/Template Test Case.lvclass"/>
@@ -56,6 +67,7 @@
 		<Item Name="Parameter.lvclass" Type="LVClass" URL="../Parameter/Parameter.lvclass"/>
 		<Item Name="Parameterized Test Case.lvclass" Type="LVClass" URL="../Parameterized Test Case/Parameterized Test Case.lvclass"/>
 		<Item Name="Parameterized Test Suite.lvclass" Type="LVClass" URL="../Parameterized Test Suite/Parameterized Test Suite.lvclass"/>
+		<Item Name="Provider INI Signer.vi" Type="VI" URL="../../../LabVIEW-Project-Provider-Resources/source/Project Provider INI Signer/Provider INI Signer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi">
@@ -154,6 +166,7 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 				<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
 				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
@@ -200,7 +213,7 @@
 				<Property Name="Destination[6].path" Type="Path">../builds/LUnit Parameterized/vi.lib/Astemes/LUnit Parameterized</Property>
 				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">7</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7B9BD166-75BC-46B6-ADBA-7BC1E6A4E395}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E9E0C722-E835-438E-A734-2946B9110425}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -209,21 +222,16 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Example</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
-				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[10].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Project Provider</Property>
-				<Property Name="Source[10].newName" Type="Str">LUnit_Param_</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Excluded Dependencies</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Project Provider/GProviders/LUnit_param_signed.ini</Property>
+				<Property Name="Source[11].newName" Type="Str">signed.ini</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -258,10 +266,15 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Tests</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Project Provider/Project Provider.lvlib</Property>
-				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Project Provider</Property>
+				<Property Name="Source[9].newName" Type="Str">LUnit_Param_</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>
 		</Item>
