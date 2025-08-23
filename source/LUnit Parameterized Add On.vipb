@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-15 13:14:08" Modified_Date="2025-02-15 13:46:08" Creator="AntonSundqvist" Comments="" ID="aae2d4e5efa4693845c71a6a74b4f441">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-15 13:14:08" Modified_Date="2025-08-23 19:34:53" Creator="AntonSundqvist" Comments="" ID="313ab3373c41b1dc043eb0491a98a649">
   <Library_General_Settings>
     <Package_File_Name>astemes_lib_lunit_parameterized_add_on</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>astemes_lib_lunit &gt;=1.8.17.2</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -119,7 +121,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path/>
       </Place_Folder_Contents>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -260,7 +262,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\vi.lib</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37A6694DA17B256E9FE1EAE8903EF402</GUID>
+      <GUID>4632DAD5DFF834B0E18C63E88ABE4C6D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -295,7 +297,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67160447E7DDD4037BE2A612F8D5C286</GUID>
+      <GUID>7BFBE8750526E25728591B2C17AAF57C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -330,7 +332,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\project\LUnit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7026B00F5862921C8609320533869CF8</GUID>
+      <GUID>A0887596230D88A4A0EC39C88D605D4E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -365,7 +367,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3859A6E97676AA0765EC9B6687DE40B2</GUID>
+      <GUID>CBE939AE757A8B37BC40670BC9BABA4B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -400,7 +402,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\vi.lib\Astemes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D9784FEFDA1D8EB718F1320AADBD7C32</GUID>
+      <GUID>44810B3991E251553B197B7436F654AA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -435,7 +437,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12C407208091E2FF627E06C0EB075DDB</GUID>
+      <GUID>B5FB78E0A66B2227B94ADCABBE5F103B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -484,7 +486,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized\Temperature Converter</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D53EECFE907300A46B47D6C3CFDCA0C4</GUID>
+      <GUID>A5FB80A0BDB57BD669F624CE563FC661</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -575,7 +577,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized\String Parser\Test Parse Temperature from String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B94B1C10AB5695BB68AFA3C86BA4FC0</GUID>
+      <GUID>8AF8B9FD30280D12D3AD45D740BF01F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -624,7 +626,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized\Temperature Converter\Temperature Converter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA93D1DF0D36386E98CEFBD563C3B247</GUID>
+      <GUID>023DC11D03CB583D7849A0F0A181DC2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -687,7 +689,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized\Temperature Converter\Temperature Converter Test\Test Convert.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BBC3572FEDDB013D7AA20C1D0C0D187</GUID>
+      <GUID>50200E16A3FDD654236B3DCF5BA4541B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -722,7 +724,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\project\LUnit\New Parameterized Test Case.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F21B9811BD6D13CD4E21020154048AC5</GUID>
+      <GUID>F4B2E2574ECFFBFC7FB8F174C483C9F1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -757,7 +759,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes\LUnit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5F4FE0516547C8A404AC065476B0044</GUID>
+      <GUID>8629591790CE695ED6143E8D8C31DC74</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -792,7 +794,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes\LUnit\Templates</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6E9E8D9D824619533200A786BBB615E2</GUID>
+      <GUID>2476CD63146593C51BD8214915DA3D34</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -827,7 +829,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes\LUnit\Templates\Parameterized Test Case</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>215F5152FD7F8856AD47AD40B8F5B390</GUID>
+      <GUID>47DD1E14D93E81404B97F9BAE7E6ED98</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -890,7 +892,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes\LUnit\Templates\Parameterized Test Case\Test Method Template.vit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28DCC580782FB212DE06E6C4442C6FCD</GUID>
+      <GUID>F21705A03A4EEC569BA6DFB4FBA7A217</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -925,7 +927,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\vi.lib\Astemes\LUnit Parameterized</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCE445608B4D5110CA502B4612BC7D1C</GUID>
+      <GUID>F23EC2DBBDB1CCE91E110C713A52AF78</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -988,7 +990,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\vi.lib\Astemes\LUnit Parameterized\Parameterized Test Suite</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>281474F86078C7949648EFF33826970E</GUID>
+      <GUID>793C93D4513B7069B4862332688F7930</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -1065,7 +1067,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\vi.lib\Astemes\LUnit Parameterized\Parameter\Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AF76AD52812CCBEAE5E1179BCF4E261</GUID>
+      <GUID>AB6D0A7CE7596F46710A2ECC7D6E52CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -1114,7 +1116,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\vi.lib\Astemes\LUnit Parameterized\Parameterized Test Case\Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3323FA0C3C28C3ECD230962EE2BA813D</GUID>
+      <GUID>8143A4164447D64682B3A877B75A3184</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -1163,7 +1165,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\vi.lib\Astemes\LUnit Parameterized\Parameterized Test Suite\Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05AFA3257CA24C12BD0313C67BA41FFD</GUID>
+      <GUID>2C8497DF9C43DFCD9344F2453F9C7976</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1212,7 +1214,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C5A7604DAB7AD348E835D5069C9A708</GUID>
+      <GUID>DD2DBA450504C24FF3D6C5894D125695</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1247,7 +1249,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>683F9DA4AAFDCE7A53F06D06A253A8E8</GUID>
+      <GUID>BB6840D1DD74804DA5EDA3BF640F65DA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1282,7 +1284,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BDF0A7BC6F31EB79864E6811288AAAAE</GUID>
+      <GUID>3EF60EB61CE8C444953D55B14CFF6F95</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1317,7 +1319,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A01AE7387F871E51926C57B85078609</GUID>
+      <GUID>54E47B12D3C2D9FF01CA610FE6697709</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1366,7 +1368,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized\Temperature Converter</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC1A2793BD5FD52621DA2208454F54B8</GUID>
+      <GUID>51B948B25CE621EF1DD02DA5884FFBE1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1401,7 +1403,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized\String Parser\Parameters.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>87246CEDDA1507287A5A805D153901AB</GUID>
+      <GUID>5026C080404FF169ED8D4900A81AE822</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1436,7 +1438,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized\Temperature Converter\Temperature Converter Test</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33E316DE508F02754477735B0AF997CA</GUID>
+      <GUID>70744B681C294A67E5CB7D956F6927D0</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1471,7 +1473,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\examples\Astemes\LUnit Parameterized\Temperature Converter\Temperature Converter Test\Parameters.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7A26876E62714CE8D80EBD2DECE8245</GUID>
+      <GUID>93B40386590BA756D9DA4CD73D1E5C16</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1506,7 +1508,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes\LUnit</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AE4952E21BE036FA048DD022A40940C</GUID>
+      <GUID>6AA38601E4E5F13748C01526C80ADCF8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1541,7 +1543,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes\LUnit\Templates</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>84E13FDC77C69FE60F677748E639D1AB</GUID>
+      <GUID>D985D548AB5F0E9B4E2B5577CA67CB65</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1576,7 +1578,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes\LUnit\Templates\Parameterized Test Case</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>879F49D1FAD474B6BC24CD8A4F57B477</GUID>
+      <GUID>89EA27CCC554C01065A541EE4A63910E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1611,7 +1613,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
         <Path>..\builds\LUnit Parameterized\resource\Astemes\LUnit\Templates\Parameterized Test Case\Parameters.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>503CA8D03C2F3090960E8AA4E18F06B7</GUID>
+      <GUID>2737659E6F646398741145EAA028A014</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
