@@ -51,11 +51,11 @@
 			<Item Name="Icons" Type="Folder">
 				<Item Name="NewParamTestCase.png" Type="Document" URL="../Project Provider/Icons/NewParamTestCase.png"/>
 			</Item>
-			<Item Name="LUnit" Type="Folder">
-				<Item Name="Create New Test Case.vi" Type="VI" URL="../Project Provider/LUnit Param/Create New Test Case.vi"/>
-				<Item Name="Global_Init.vi" Type="VI" URL="../Project Provider/LUnit Param/Global_Init.vi"/>
-				<Item Name="Global_Interface.vi" Type="VI" URL="../Project Provider/LUnit Param/Global_Interface.vi"/>
-				<Item Name="Global_OnCommand.vi" Type="VI" URL="../Project Provider/LUnit Param/Global_OnCommand.vi"/>
+			<Item Name="LUnit_Param" Type="Folder">
+				<Item Name="CreateNewParamTestCase.vi" Type="VI" URL="../Project Provider/LUnit_Param/CreateNewParamTestCase.vi"/>
+				<Item Name="Global_Init.vi" Type="VI" URL="../Project Provider/LUnit_Param/Global_Init.vi"/>
+				<Item Name="Global_Interface.vi" Type="VI" URL="../Project Provider/LUnit_Param/Global_Interface.vi"/>
+				<Item Name="Global_OnCommand.vi" Type="VI" URL="../Project Provider/LUnit_Param/Global_OnCommand.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Templates" Type="Folder">
@@ -190,7 +190,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/LUnit Parameterized</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F8196923-3EA2-4438-84CE-CAAF2F77AAE3}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LUnit Parameterized</Property>
@@ -211,7 +211,7 @@
 				<Property Name="Destination[6].path" Type="Path">../builds/LUnit Parameterized/vi.lib/Astemes/LUnit Parameterized</Property>
 				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">7</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E9E0C722-E835-438E-A734-2946B9110425}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{41C3EDC4-ED35-45EF-BC36-F33B4D03E779}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -271,7 +271,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Project Provider</Property>
 				<Property Name="Source[9].newName" Type="Str">LUnit_Param_</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>
