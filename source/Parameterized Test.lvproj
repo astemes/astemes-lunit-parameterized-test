@@ -59,7 +59,7 @@
 			</Item>
 		</Item>
 		<Item Name="Templates" Type="Folder">
-			<Item Name="Template Test Case.lvclass" Type="LVClass" URL="../templates/Template Test Case/Template Test Case.lvclass"/>
+			<Item Name="Template Parameterized Test Case.lvclass" Type="LVClass" URL="../templates/Template Test Case/Template Parameterized Test Case.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Parameterized Test Case Test.lvclass" Type="LVClass" URL="../../tests/Parameterized Test Case Test/Parameterized Test Case Test.lvclass"/>
