@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-15 13:14:08" Modified_Date="2025-08-29 07:56:50" Creator="AntonSundqvist" Comments="" ID="a41479ab20b29ab06f0ba1429410553b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-15 13:14:08" Modified_Date="2026-02-12 08:38:26" Creator="AntonSundqvist" Comments="" ID="faf13f0e8b931776150734fe2df53ce7">
   <Library_General_Settings>
     <Package_File_Name>astemes_lib_lunit_parameterized_add_on</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
@@ -37,8 +37,7 @@ Use the class private data to bundle parameters to be used in the tests.</Descri
       <Copyright>Copyright (c) 2024, Astemes</Copyright>
       <Packager>Anton Sundqvist</Packager>
       <URL>https://github.com/Astemes/astemes-lunit-parameterized-test</URL>
-      <Release_Notes>- Update to support LUnit verision &gt;1.9.x
-- Add access to scenario name within a test method through the Name.vi defined in Test Case.lvclass.</Release_Notes>
+      <Release_Notes>- Fix #8: Tests created from template are not set to separate compiled code.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
