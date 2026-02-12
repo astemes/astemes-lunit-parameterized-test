@@ -1,0 +1,48 @@
+name: Build and Release
+on:
+  push:
+    tags:
+      - '*'
+concurrency:
+  group: lv2020
+  cancel-in-progress: false
+jobs:
+  checkout:
+    runs-on: lv2020
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+      - name: Checkout Tools
+        uses: actions/checkout@v4
+        with:
+          repository: astemes/astemes-github-actions
+          ref: main
+          path: ./.github/actions
+  build:
+    needs: checkout
+    runs-on: lv2020
+    steps:
+      - uses: astemes/astemes-github-actions/buildLVBuildSpec@main
+        with:
+          project-path: "source\\Parameterized Test.lvproj"
+          build-spec: "LUnit Parameterized Test Case"
+  release:
+    needs: build
+    runs-on: lv2020
+    steps:
+      - name: Get version
+        id: get_version
+        uses: astemes/astemes-github-actions/getVersion@main
+      - name: Build VIP
+        id: build-vip
+        uses: astemes/astemes-github-actions/buildVIPackage@main
+        with:
+          vipb-path: "source\\LUnit Parameterized Add On.vipb"
+          lv-version: "20.0"
+          pkg-version: "${{ steps.get_version.outputs.version }}"
+      - name: Release VIP
+        uses: astemes/astemes-github-actions/releaseFile@main
+        with:
+          file-path: "${{ steps.build-vip.outputs.artifact-path }}"
